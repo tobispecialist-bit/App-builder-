@@ -1,0 +1,19 @@
+{
+  "name": "tobi-ai-app-builder",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "zip:example": "node ./src/exampleZip.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "adm-zip": "^0.5.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
